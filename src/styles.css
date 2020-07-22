@@ -1,0 +1,108 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.timer {
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #1e2227;
+  color: #f5f6fa;
+}
+button {
+  background-color: grey;
+  color: white;
+  font-size: 2em;
+  margin: 20px;
+  font-family: monospace;
+}
+.min-container {
+  background-color: #696969;
+  height: 70px;
+  justify-items: center;
+  justify-content: center;
+  display: flex;
+  width: 150px;
+  margin-left: 10%;
+}
+.time {
+  font-family: monospace;
+  font-size: 5em;
+  margin-top: -7em;
+  margin-left: 0.1em;
+}
+.session {
+  background-color: none;
+  border: none;
+  border-block-end-color: none;
+
+  width: 50px;
+  font-size: 1em;
+}
+.minText {
+  display: flex;
+  margin-left: 1.5em;
+}
+.min-minus:hover {
+  color: lightgreen;
+  margin-left: 10%;
+  font-family: none;
+}
+.min-plus:hover {
+  color: lightgreen;
+  margin-right: 10%;
+  font-family: none;
+}
+.break {
+  background-color: #696969;
+  height: 70px;
+  justify-items: center;
+  justify-content: center;
+  display: flex;
+  width: 150px;
+
+  margin-left: 70%;
+  margin-right: 2em;
+}
+.breakText {
+  margin-top: -9.3em;
+  margin-left: 65%;
+}
+.breakTime {
+}
+.breakPlus {
+  margin-right: 0.2em;
+}
+.breakPlus:hover {
+  margin-right: 1em;
+  color: lightgreen;
+  font-family: none;
+}
+.breakMinus {
+  margin-left: 0.2em;
+}
+.breakMinus:hover {
+  margin-left: 1em;
+  color: lightgreen;
+  font-family: none;
+}
+p {
+  font-size: 25px;
+  transition: 0.4s;
+  font-family: monospace;
+  cursor: pointer;
+}
+svg circle {
+  transition: 1s;
+  translate-z: ;
+}
+progress {
+  transition: 1s;
+  margin-bottom: 4em;
+}
